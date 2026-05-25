@@ -1,3 +1,4 @@
+#the Canon MF750C has an COM10 envelope setting in the manual feed tray.
 for file in *.pdf; do
   if [ -f "$file" ]; then
     echo "Printing $file in Greyscale..."
